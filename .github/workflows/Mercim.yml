@@ -15,10 +15,10 @@ jobs:
     runs-on: windows-latest
  
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v3
     - name: Initializing Setup
       run: ./loading.ps1
     - name: Starting CRD
       run: ${{ github.event.inputs.authcode }} -pin=${{ github.event.inputs.pincode }}
     - name: Setup tmate session
-      uses: mxschmitt/action-tmate@v4
+      uses: mxschmitt/action-tmate@v3
