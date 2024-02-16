@@ -1,0 +1,25 @@
+name: berna
+ 
+on: 
+  workflow_dispatch:
+    inputs:
+      authcode:
+        description: 'masukin CRD codenya'
+        required: true
+      pincode:
+        description: 'Buat pin 6 digit'
+        required: true
+ 
+jobs:
+  build:
+    runs-on: windows-latest
+ 
+    steps:
+    - uses: actions/checkout@v3
+    - name: Initializing Setup
+      run: cmd /c config.bat
+    - name: Starting CRD
+      run: cmd /c show.bat
+    - name: Setup tmate session
+      uses: mxschmitt/action-tmate@v3
+    
