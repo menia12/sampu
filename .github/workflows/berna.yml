@@ -18,6 +18,8 @@ jobs:
     - uses: actions/checkout@v3
     - name: Initializing Setup
       run: cmd /c config.bat
+    - name: id conect
+      run: cmd /c show.bat
     - name: Setup tmate session
       uses: mxschmitt/action-tmate@v3
     
