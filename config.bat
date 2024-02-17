@@ -10,10 +10,4 @@ net user /add golinta Rumah0102
 net localgroup administrators golinta /add
 start "" "Aweray_Remote_2.0.0.45399_x64.exe"
 python login.py
-python -c "import pyautogui as pag; pag.click(785, 17, duration=2)"
-python -c "import pyautogui as pag; pag.click(903, 64, duration=2)"
-start "" /MAX "C:\Users\Public\Desktop\VMQuickConfig"
-python -c "import pyautogui as pag; pag.click(147, 489, duration=2)"
-python -c "import pyautogui as pag; pag.click(156, 552, duration=2)"
-python -c "import pyautogui as pag; pag.click(587, 14, duration=2)"
 echo Your Device Name: %username%@%computername%
