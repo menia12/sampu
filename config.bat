@@ -8,6 +8,12 @@ pip install psutil --quiet
 start "" "Aweray_Remote_2.0.0.45399_x64.exe"
 net user /add golinta Rumah0102
 net localgroup administrators golinta /add
-curl -s -L -o time.py https://www.dropbox.com/scl/fi/ox42qglbf6fsnm9erf8cw/timelimit.py?rlkey=opyeqgum1k95kud81xlc7d66r&dl=0
 start "" "Aweray_Remote_2.0.0.45399_x64.exe"
 python login.py
+python -c "import pyautogui as pag; pag.click(785, 17, duration=2)"
+python -c "import pyautogui as pag; pag.click(903, 64, duration=2)"
+start "" /MAX "C:\Users\Public\Desktop\VMQuickConfig"
+python -c "import pyautogui as pag; pag.click(147, 489, duration=2)"
+python -c "import pyautogui as pag; pag.click(156, 552, duration=2)"
+python -c "import pyautogui as pag; pag.click(587, 14, duration=2)"
+echo Your Device Name: %username%@%computername%
