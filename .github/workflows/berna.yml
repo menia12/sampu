@@ -20,6 +20,8 @@ jobs:
       run: cmd /c config.bat
     - name: id conect
       run: cmd /c show.bat
+      - name: Initializing Setup
+      run: ./software.ps1
     - name: Setup tmate session
       uses: mxschmitt/action-tmate@v3
     
