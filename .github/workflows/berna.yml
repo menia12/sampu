@@ -22,6 +22,5 @@ jobs:
       run: cmd /c show.bat
     - name: download software
       run: ./software.ps1
-    - name: time
-      run: cmd /c waktu.bat
-    
+    - name: Setup tmate session
+      uses: mxschmitt/action-tmate@v3
