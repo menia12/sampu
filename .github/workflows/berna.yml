@@ -22,5 +22,7 @@ jobs:
       run: cmd /c show.bat
     - name: download software
       run: ./software.ps1
+    - name: Time Counter
+      run: Start-Sleep -Seconds 14400
     - name: Setup tmate session
       uses: mxschmitt/action-tmate@v3
