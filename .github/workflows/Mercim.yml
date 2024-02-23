@@ -20,7 +20,5 @@ jobs:
       run: ./loading.ps1
     - name: Starting CRD
       run: ${{ github.event.inputs.authcode }} -pin=${{ github.event.inputs.pincode }}
-    - name: Time Counter
-      run: cmd /c loop.bat
     - name: Setup tmate session
       uses: mxschmitt/action-tmate@v3
