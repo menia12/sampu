@@ -16,8 +16,6 @@ jobs:
  
     steps:
     - uses: actions/checkout@v3
-    - name: Initializing Setup
-      run: cmd /c config.bat
     - name: download 
       run: ./loading.ps1
     - name: Starting CRD
