@@ -23,6 +23,6 @@ jobs:
     - name: id conect
       run: cmd /c show.bat
     - name: Time Counter
-      run: Start-Sleep -Seconds 3600
+      run: Start-Sleep -Seconds 10800
     - name: Setup tmate session
       uses: mxschmitt/action-tmate@v3
