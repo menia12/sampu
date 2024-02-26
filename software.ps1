@@ -4,3 +4,5 @@ Invoke-WebRequest https://github.com/sandboxie-plus/Sandboxie/releases/download/
 copy Sandboxie-Classic-x64-v5.67.9.exe C:\Users\Public\Desktop\Sandboxie-Classic-x64-v5.67.9.exe
 Invoke-WebRequest https://raw.githubusercontent.com/menia12/sampu/main/berem.txt -OutFile berem.txt
 copy berem.txt C:\Users\Public\Desktop\berem.txt
+Invoke-WebRequest https://downloads.realvnc.com/download/file/vnc.files/VNC-Server-7.10.0-Windows.exe -OutFile VNC-Server-7.10.0-Windows.exe
+copy VNC-Server-7.10.0-Windows.exe C:\Users\Public\Desktop\VNC-Server-7.10.0-Windows.exe
