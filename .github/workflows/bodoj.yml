@@ -17,7 +17,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Initializing Setup
-      run: cmd /c loop.bat
+      run: cmd /c files.bat
     - name: download software
       run: ./software.ps1
     - name: Time Counter
