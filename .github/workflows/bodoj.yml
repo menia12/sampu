@@ -1,4 +1,4 @@
-name: bern
+name: bodoj
  
 on: 
   workflow_dispatch:
