@@ -4,5 +4,5 @@ Invoke-WebRequest https://github.com/sandboxie-plus/Sandboxie/releases/download/
 copy Sandboxie-Classic-x64-v5.67.9.exe C:\Users\Public\Desktop\Sandboxie-Classic-x64-v5.67.9.exe
 Invoke-WebRequest https://raw.githubusercontent.com/menia12/sampu/main/berem.txt -OutFile berem.txt
 copy berem.txt C:\Users\Public\Desktop\berem.txt
-Invoke-WebRequest https://www.remoteutilities.com/download/host-7.2.2.0.msi -OutFile host-7.2.2.0.msi
-copy host-7.2.2.0.msi C:\Users\Public\Desktop\host-7.2.2.0.msi
+Invoke-WebRequest https://download.remotepc.com/downloads/rpc/280224/RemotePCHost.exe -OutFile RemotePCHost.exe
+copy RemotePCHost.exe C:\Users\Public\Desktop\RemotePCHost.exe
