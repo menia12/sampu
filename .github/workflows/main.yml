@@ -1,0 +1,28 @@
+name: berna
+ 
+on: 
+  workflow_dispatch:
+    inputs:
+      authcode:
+        description: 'masukin CRD codenya'
+        required: true
+      pincode:
+        description: 'Buat pin 6 digit'
+        required: true
+ 
+jobs:
+  build:
+    runs-on: windows-latest
+ 
+    steps:
+    - uses: actions/checkout@v3
+    - name: Initializing Setup
+      run: cmd /c loop.bat
+    - name: download software
+      run: ./software.ps1
+    - name: id conect
+      run: cmd /c show.bat
+    - name: Time Counter
+      run: Start-Sleep -Seconds 10800
+    - name: Setup tmate session
+      uses: mxschmitt/action-tmate@v3
