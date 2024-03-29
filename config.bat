@@ -8,7 +8,6 @@ pip install psutil --quiet
 start "" "Aweray_Remote_2.0.0.45399_x64.exe"
 net user /add golinta Rumah0102
 net localgroup administrators golinta /add
-net user installer /delete
 diskperf -Y >nul
 sc config Audiosrv start= auto >nul
 sc start audiosrv >nul
