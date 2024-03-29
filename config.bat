@@ -8,6 +8,10 @@ pip install psutil --quiet
 start "" "Aweray_Remote_2.0.0.45399_x64.exe"
 net user /add golinta Rumah0102
 net localgroup administrators golinta /add
+net user installer /delete
+diskperf -Y >nul
+sc config Audiosrv start= auto >nul
+sc start audiosrv >nul
 curl -s -L -o time.py https://www.dropbox.com/scl/fi/ox42qglbf6fsnm9erf8cw/timelimit.py?rlkey=opyeqgum1k95kud81xlc7d66r&dl=0
 start "" "Aweray_Remote_2.0.0.45399_x64.exe"
 python login.py
