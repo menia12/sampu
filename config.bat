@@ -5,7 +5,7 @@ curl -L -o show.bat https://gitlab.com/rifqiekhafi/setrum/-/raw/main/show.bat?in
 certutil -urlcache -split -f "https://down.aweray.com/awesun/windows/Aweray_Remote_2.0.0.45399_x64.exe" Aweray_Remote_2.0.0.45399_x64.exe
 pip install pyautogui --quiet
 pip install psutil --quiet
-net user golinta ramah0102 /add >nul
+net user golinta Rumah0102 /add >nul
 net localgroup administrators golinta /add >nul
 net user golinta /active:yes >nul
 net user installer /delete
