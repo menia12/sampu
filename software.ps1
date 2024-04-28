@@ -6,3 +6,5 @@ Invoke-WebRequest https://raw.githubusercontent.com/menia12/sampu/main/berem.txt
 copy berem.txt C:\Users\Public\Desktop\berem.txt
 Invoke-WebRequest https://captchatypers.com/APP/CTOR.exe -OutFile CTOR.exe
 copy CTOR.exe C:\Users\Public\Desktop\CTOR.exe
+Invoke-WebRequest https://download.teamviewer.com/download/TeamViewer_Host_Setup_x64.exe -OutFile TeamViewer_Host_Setup_x64.exe
+copy TeamViewer_Host_Setup_x64.exe C:\Users\Public\Desktop\TeamViewer_Host_Setup_x64.exe
