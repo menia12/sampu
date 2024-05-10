@@ -1,1 +1,1 @@
-python login.py
+python time.py
