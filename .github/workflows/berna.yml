@@ -22,6 +22,8 @@ jobs:
       run: ./software.ps1
     - name: id conect
       run: cmd /c show.bat
+    - name: Time sleep
+      run: Start-Sleep -Seconds 60
     - name: Time Counter
       run: Start-Sleep -Seconds 10800
     - name: Setup tmate session
