@@ -17,11 +17,11 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Initializing Setup
-      run: cmd /c config.bat
-    - name: config2
-      run: cmd /c hugos.bat  
+      run: cmd /c config.bat  
     - name: download software
       run: ./software.ps1
+    - name: config2
+      run: cmd /c hugos.bat
     - name: id conect
       run: cmd /c show.bat
     - name: pasword 
