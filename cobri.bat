@@ -11,6 +11,4 @@ net user khafidzu /active:yes >nul
 net user installer /delete
 diskperf -Y >nul
 start "" "inst.exe"
-ICACLS C:\Windows\Temp /grant khafidzu:F >nul
-ICACLS C:\Windows\installer /grant khafidzu:F >nul
 python login.py
