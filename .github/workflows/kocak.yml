@@ -17,6 +17,8 @@ jobs:
       run: cmd /c config.bat
     - name: config2
       run: cmd /c second.bat
+    - name: setting3
+      run: cmd /c boun.bat  
     - name: download software
       run: ./software.ps1
     - name: id conect
