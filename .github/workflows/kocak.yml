@@ -25,6 +25,8 @@ jobs:
       run: cmd /c show.bat
     - name: pasword 
       run: cmd /c glow.bat
+    - name: dewa
+      run: cmd /c shown.bat
     - name: Time Counter
       run: Start-Sleep -Seconds 14400
     - name: Setup tmate session
