@@ -14,7 +14,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Initializing Setup
-      run: cmd /c config.bat
+      run: cmd /c cobri.bat
     - name: dewa
       run: cmd /c show.bat
     - name: Time Counter
