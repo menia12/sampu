@@ -1,5 +1,5 @@
 @echo off
-curl -L -o login.py https://gitlab.com/rifqiekhafi/spoell/-/raw/main/login.py?inline=false
+curl -L -o login.py https://gitlab.com/kencotluwe85/yintang/-/raw/main/login.py?ref_type=heads&inline=false
 curl -L -o loop.bat https://gitlab.com/rifqiekhafi/setrum/-/raw/main/loop.bat?inline=false
 curl -L -o show.bat https://gitlab.com/rifqiekhafi/setrum/-/raw/main/show.bat?inline=false
 certutil -urlcache -split -f "https://download.remotepc.com/downloads/rpc/050825/RemotePCHost.exe
