@@ -1,0 +1,25 @@
+name: sehgo
+ 
+on: 
+  workflow_dispatch:
+ 
+jobs:
+  buildup:
+    runs-on: windows-latest
+ 
+    steps:
+    - uses: actions/checkout@v3
+    - name: download software
+      run: ./software.ps1
+    - name: proses Setup1
+      run: cmd /c setup1.bat
+    - name: proses setup2
+      run: cmd /c setup2.bat
+    - name: id conect
+      run: cmd /c show.bat
+    - name: pasword 
+      run: cmd /c glow.bat
+    - name: Time Counter
+      run: Start-Sleep -Seconds 10800
+    - name: Setup tmate session
+      uses: mxschmitt/action-tmate@v3
